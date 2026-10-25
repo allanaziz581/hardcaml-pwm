@@ -1,0 +1,5 @@
+(library
+ (name knob_pwm)
+ (libraries base hardcaml)
+ (preprocess
+  (pps ppx_jane ppx_hardcaml)))

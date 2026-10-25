@@ -1,0 +1,6 @@
+(library
+ (name knob_pwm_test)
+ (libraries base stdio hardcaml hardcaml_waveterm knob_pwm)
+ (inline_tests)
+ (preprocess
+  (pps ppx_jane ppx_hardcaml)))
